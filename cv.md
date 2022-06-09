@@ -22,6 +22,11 @@ I am a very active person and I like to learn new things. While studying at the 
 * Photoshop, Illustrator, 3Ds Max
 
 ## **Code example:**
+```
+function multiply (a, b) {
+return a * b
+}
+```
 
 ## **Education:**
 * BSUIR
