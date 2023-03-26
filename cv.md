@@ -7,7 +7,6 @@ Phone: +375293075059
 
 Telegram: @Vrode_Asya
 
-LinkedIn(https://www.linkedin.com/in/anastasiya-lesnikovskaya/)
 [LinkedIn](https://www.linkedin.com/in/anastasiya-lesnikovskaya/)
 
 ## **Summary:**
@@ -23,8 +22,13 @@ I am a very active person and I like to learn new things. While studying at the 
 
 ## **Code example:**
 ```
-function multiply (a, b) {
-return a * b
+function nbDig(n, d) {
+  let count = 0;
+   for (let k = 0; k <= n; k++) {
+     let arr = (k * k + '').split('');
+     count += arr.filter(item => item == d).length;
+   }
+  return count;
 }
 ```
 
