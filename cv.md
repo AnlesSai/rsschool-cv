@@ -24,7 +24,7 @@ I am a very active person and I like to learn new things. While studying at the 
 ```
 function nbDig(n, d) {
   let count = 0;
-   for (let k = 0; k <= n; k++) {
+   for (let k = 0; k < = n; k++) {
      let arr = (k * k + '').split('');
      count += arr.filter(item => item == d).length;
    }
