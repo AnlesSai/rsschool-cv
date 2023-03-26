@@ -35,7 +35,9 @@
     <main class="main">
       <div class="container main-container">
         <section class="section section-profile" id="profile">
-        <img class="section-profile-photo" src="./assets/img/IMG_2384.png" alt="photo">
+          <figure class="header-photo">
+          <img class="section-profile-photo" src="./assets/IMG_2384.png" alt="photo">
+          </figure>
           <div class="section-profile-title">
             <h1 class="section-title main-title">Lesnikovskaya Anastasiya</h1>
             <h3 class="section-subtitle">Junior Front-end developer</h3>
@@ -105,17 +107,12 @@
         <section class="section" id="code">
           <h2 class="section-title">Code</h2>
           <pre>
-            <code>
-function nbDig(n, d) {
-let count = 0;
-for (let k = 0; k < = n; k++) {
-let arr = (k * k + '').split('');
-count += arr.filter(item => item == d).length;
-}
-return count;
-}
-                        </code>
-                    </pre>
+<code>
+let result = questions.map(function(current) {
+current.usersAnswer = null;
+});
+</code>
+</pre>
         </section>
         <section class="section" id="education">
           <h2 class="section-title">Education</h2>
@@ -140,13 +137,8 @@ return count;
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <div>
-          © 2022
-          <a href="https://github.com/AnlesSai" class="github nav-link"
-            >AnlesSai</a
-          >
-        </div>
-        <a href="https://rs.school/js/" class="rss"></a>
+          <div>© 2022 <a href="https://github.com/AnlesSai" class="github nav-link">AnlesSai</a></div>
+          <a href="https://rs.school/js/" class="rss"></a>
       </div>
     </footer>
   </body>
